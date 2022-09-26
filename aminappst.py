@@ -288,6 +288,9 @@ if menu_id== 'Visuals':
         st.write('')
         st.write('')
         st.plotly_chart(fig6)
+LowIncome = st.checkbox('Low Salary')
+ModerateIncome = st.checkbox('Moderate Salary')
+HighIncome = st.checkbox('High Salary')
 
     with col22:
         st.write('')

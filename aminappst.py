@@ -9,7 +9,7 @@ import streamlit_card as st_card
 import pandas as pd
 from plotly.offline import init_notebook_mode,iplot
 
-df= pd.read_csv('/Users/aminghobar/Desktop/aminappst/marketingcampaign.csv')
+df= pd.read_csv('marketingcampaign.csv')
 
 
 
